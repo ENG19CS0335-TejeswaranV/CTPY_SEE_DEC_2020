@@ -1,4 +1,5 @@
 5a)
+
  Input:
  3
  1 2 
@@ -9,6 +10,7 @@
  3 4 
  
  when key does not exist in data 1 , the key value pair is not added to it
+ 
  5b)
  if k in data1:
     v1=data1[k]
@@ -17,3 +19,4 @@
     del data1[k]
  else:
      data[k]=v2
+ 
