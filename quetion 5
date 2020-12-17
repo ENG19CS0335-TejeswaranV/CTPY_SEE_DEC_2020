@@ -1,0 +1,19 @@
+5a)
+ Input:
+ 3
+ 1 2 
+ 2 2 
+ 8 7 
+ 2
+ 2 4
+ 3 4 
+ 
+ when key does not exist in data 1 , the key value pair is not added to it
+ 5b)
+ if k in data1:
+    v1=data1[k]
+    if v1!=v2:
+    dupkeys[k]={v1,v2}
+    del data1[k]
+ else:
+     data[k]=v2
